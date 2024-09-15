@@ -1,8 +1,4 @@
-a, b, c = input().split(' ')
-
-a = int(a)
-b = int(b)
-c = int(c)
+a, b, c = map(int, input().split(' '))
 
 x = (a + b + abs(a - b)) / 2
 maiorXC = (x + c + abs(x - c)) / 2
