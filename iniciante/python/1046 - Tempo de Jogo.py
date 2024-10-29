@@ -18,4 +18,5 @@ else:
                 break
             horaInicial += 1
             duracao += 1
+            
 print(f"O JOGO DUROU {duracao} HORA(S)")
