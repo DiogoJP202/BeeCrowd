@@ -7,3 +7,5 @@ Seja bem vindo/a a este repositório com objetivode compartilhar soluções do B
 [Python](/iniciante/python)
 
 [Java](/iniciante/java)
+
+[PostgreSQL](/iniciante/postgresql)
