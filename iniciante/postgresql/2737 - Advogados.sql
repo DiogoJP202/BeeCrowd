@@ -12,3 +12,4 @@ UNION ALL
 -- Não precisamos usar GROUP BY porque não estamos agrupando os dados por nenhuma categoria.
 SELECT 'Average', ROUND(AVG(customers_number), 0)
 FROM lawyers;
+

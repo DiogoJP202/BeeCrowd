@@ -10,3 +10,8 @@ ORDER BY cust.id;
 --     FROM locations AS loca 
 --     WHERE cust.id = loca.id_customers
 -- )
+
+SELECT id, name
+FROM customers
+WHERE NOT EXISTS 
+(SELECT 1 FROM locations WHERE customers.id = locations.id_customers);
